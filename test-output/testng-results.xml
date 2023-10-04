@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-04T13:52:21 IST" name="Default suite" finished-at="2023-10-04T13:52:31 IST" duration-ms="9986">
+    <groups>
+    </groups>
+    <test started-at="2023-10-04T13:52:21 IST" name="Default test" finished-at="2023-10-04T13:52:31 IST" duration-ms="9986">
+      <class name="com.automation.ui.tests.verifyHomePage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.ui.tests.verifyHomePage@6025e1b6]" started-at="2023-10-04T13:52:12 IST" name="setup" finished-at="2023-10-04T13:52:21 IST" duration-ms="9613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initiateReport(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.tests.verifyHomePage@6025e1b6]" started-at="2023-10-04T13:52:21 IST" name="initiateReport" finished-at="2023-10-04T13:52:21 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.tests.verifyHomePage.searchAndClick() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateReport -->
+        <test-method signature="searchAndClick()[pri:0, instance:com.automation.ui.tests.verifyHomePage@6025e1b6]" started-at="2023-10-04T13:52:21 IST" name="searchAndClick" finished-at="2023-10-04T13:52:29 IST" duration-ms="7344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndClick -->
+        <test-method is-config="true" signature="flushreport(org.testng.ITestResult)[pri:0, instance:com.automation.ui.tests.verifyHomePage@6025e1b6]" started-at="2023-10-04T13:52:29 IST" name="flushreport" finished-at="2023-10-04T13:52:30 IST" duration-ms="1254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchAndClick status=SUCCESS method=verifyHomePage.searchAndClick()[pri:0, instance:com.automation.ui.tests.verifyHomePage@6025e1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushreport -->
+        <test-method signature="HomePage()[pri:0, instance:com.automation.ui.tests.verifyHomePage@6025e1b6]" started-at="2023-10-04T13:52:30 IST" name="HomePage" finished-at="2023-10-04T13:52:30 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method is-config="true" signature="initiateReport(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.tests.verifyHomePage@6025e1b6]" started-at="2023-10-04T13:52:30 IST" name="initiateReport" finished-at="2023-10-04T13:52:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.tests.verifyHomePage.HomePage() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateReport -->
+        <test-method is-config="true" signature="flushreport(org.testng.ITestResult)[pri:0, instance:com.automation.ui.tests.verifyHomePage@6025e1b6]" started-at="2023-10-04T13:52:30 IST" name="flushreport" finished-at="2023-10-04T13:52:31 IST" duration-ms="608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePage status=SUCCESS method=verifyHomePage.HomePage()[pri:0, instance:com.automation.ui.tests.verifyHomePage@6025e1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushreport -->
+        <test-method is-config="true" signature="initiateReport(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.tests.verifyHomePage@6025e1b6]" started-at="2023-10-04T13:52:31 IST" name="initiateReport" finished-at="2023-10-04T13:52:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.tests.verifyHomePage.goBackToHomePageWindow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateReport -->
+        <test-method signature="goBackToHomePageWindow()[pri:0, instance:com.automation.ui.tests.verifyHomePage@6025e1b6]" started-at="2023-10-04T13:52:31 IST" name="goBackToHomePageWindow" finished-at="2023-10-04T13:52:31 IST" depends-on-methods="com.automation.ui.tests.verifyHomePage.searchAndClick" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackToHomePageWindow -->
+        <test-method is-config="true" signature="flushreport(org.testng.ITestResult)[pri:0, instance:com.automation.ui.tests.verifyHomePage@6025e1b6]" started-at="2023-10-04T13:52:31 IST" name="flushreport" finished-at="2023-10-04T13:52:31 IST" duration-ms="619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goBackToHomePageWindow status=SUCCESS method=verifyHomePage.goBackToHomePageWindow()[pri:0, instance:com.automation.ui.tests.verifyHomePage@6025e1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushreport -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.ui.tests.verifyHomePage@6025e1b6]" started-at="2023-10-04T13:52:31 IST" name="tearDown" finished-at="2023-10-04T13:52:32 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.ui.tests.verifyHomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
