@@ -28,7 +28,7 @@ public class verifyHomePage extends baseTest{
 		driver.getTitle();
 	}
 	
-	@Test
+	@Test(dependsOnMethods="HomePage")
 	public void searchAndClick() throws IOException {
 		home.search(configReader.readConfigFile("searchText"));
 		home.clickonCard();
