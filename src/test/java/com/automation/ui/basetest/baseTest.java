@@ -20,7 +20,7 @@ public class baseTest extends Configurations {
 	
 	@BeforeSuite
 	public void setup() throws IOException {
-		initDriver(configReader.readConfigFile("url"), configReader.readConfigFile("browser"));
+		initRemoteDriver(configReader.readConfigFile("url"), configReader.readConfigFile("browser"));
 		home=new pageHome();
 		generateReport();
 	}
